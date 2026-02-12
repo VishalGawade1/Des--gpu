@@ -8,7 +8,7 @@ My interest in DES ([Data Encryption Standard](https://en.wikipedia.org/wiki/Dat
 
 The question that every student asked: how long would it take to go through all possible hashes on a modern computer. In particular when using vectorised integer instructions such as MMX or SSE2. As I was no DES expert, I quickly gave up after a few days of exploring [John The Ripper](https://www.openwall.com/john/) with my shiny new Pentium 4 2.6Ghz.
 
-Almost 20 years later, I started to wonder whether CPUs and GPUs had become fast enough to exhaustively search to all possible combinations in a reasonable amount of time while still using off-the-shelves hardware. I naturally looked back at JtR as a starting point and found out it supported DES GPU acceleration using OpenCL.
+Almost 10 years later, I started to wonder whether CPUs and GPUs had become fast enough to exhaustively search to all possible combinations in a reasonable amount of time while still using off-the-shelves hardware. I naturally looked back at JtR as a starting point and found out it supported DES GPU acceleration using OpenCL.
 
 Out of the box, using the prebuilt Windows binaries, OpenCL acceleration did not work on my NVIDIA GPU on Windows 10 (it claimed it couldn't find any OpenCL devices). It did however run when building from source on Ubuntu 20.04. Building from source on Windows requires [Cygwin](https://www.cygwin.com/), which in my books is a big no-go since I really wanted to build the source in Visual Studio such that the whole algorithm could be run, debugged, and iterated through the IDE. And even then, it wasn't obvious if building using Cygwin would have resulted in an OpenCL-enabled executable (which could explain why the prebuilt one didn't work).
 
