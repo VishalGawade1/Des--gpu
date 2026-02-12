@@ -4,7 +4,7 @@
 
 ## Introduction
 
-My interest in DES ([Data Encryption Standard](https://en.wikipedia.org/wiki/Data_Encryption_Standard)) started around 2002 in College. The system used by students was built around a [HP-UX](https://en.wikipedia.org/wiki/HP-UX) server (which was already fairly obsolete at that point; featuring 64MB of RAM, when PC desktops sported Pentium 4s and 1GB of RAM).
+My interest in DES ([Data Encryption Standard](https://en.wikipedia.org/wiki/Data_Encryption_Standard)) started around 2014 in College. The system used by students was built around a [HP-UX](https://en.wikipedia.org/wiki/HP-UX) server (which was already fairly obsolete at that point; featuring 64MB of RAM, when PC desktops sported Pentium 4s and 1GB of RAM).
 
 The question that every student asked: how long would it take to go through all possible hashes on a modern computer. In particular when using vectorised integer instructions such as MMX or SSE2. As I was no DES expert, I quickly gave up after a few days of exploring [John The Ripper](https://www.openwall.com/john/) with my shiny new Pentium 4 2.6Ghz.
 
